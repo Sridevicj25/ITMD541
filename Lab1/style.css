@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"Gill Sans", sans-serif;;
+    line-height: 1.6;
+    background-color: #f1f7f7;
+    color: #050505;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: 1000;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* portfolio section */
+#portfolio {
+    background: #007bff;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 2.5rem;
+}
+
+#portfolio p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.portfolio-photo {
+    max-width: 20%;
+    height: 20%;
+    border-radius: 8px;
+    margin-top: 1em;
+}
+
+/* Section styling */
+section {
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.project {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
